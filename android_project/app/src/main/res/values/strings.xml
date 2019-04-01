@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Xổ Số Trực Tiếp</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_ket_qua_acitivity">Kết Quả</string>
+
+    <string name="title_mien_bac">Miền Bắc</string>
+    <string name="title_mien_trung">Miền Trung</string>
+    <string name="title_mien_nam">Miền Nam</string>
+
+    <string name="title_activity_login">Đăng Nhập</string>
+    <string name="title_activity_ketqua">Kết Quả 3 Miền</string>
+    <string name="title_activity_profile">Trang Cá Nhân</string>
+    <string name="title_activity_register">Đăng Ký</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Đăng Nhập</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="prompt_confirm_password">Confirm Password</string>
+
+    <string name="action_register">Đăng Ký</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="datepicker">datePicker</string>
+</resources>

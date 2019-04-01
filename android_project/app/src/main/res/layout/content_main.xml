@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="18.5dp"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/ketqua_btn"
+                    android:layout_width="@dimen/size_image_button"
+                    android:layout_height="@dimen/size_image_button"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/xoso"
+                    android:onClick="changeToKetQuaActivity"></ImageButton>
+                <!--android:background="@null"-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ketqua_btn"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:text="Kết Quả" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="18.5dp"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/profile_btn"
+                    android:layout_width="@dimen/size_image_button"
+                    android:layout_height="@dimen/size_image_button"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/ic_action_profile"
+                    android:onClick="changeToProfileActivity"></ImageButton>
+                <!--android:background="@null"-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/profile_btn"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:text="Cá Nhân" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="18.5dp"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/register_btn"
+                    android:layout_width="@dimen/size_image_button"
+                    android:layout_height="@dimen/size_image_button"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/register"
+                    android:onClick="changeToRegisterActivity"></ImageButton>
+                <!--android:background="@null"-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/register_btn"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:text="@string/action_register" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="18.5dp"
+                android:gravity="center">
+
+                <ImageButton
+                    android:id="@+id/login_btn"
+                    android:layout_width="@dimen/size_image_button"
+                    android:layout_height="@dimen/size_image_button"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/ic_action_login"
+                    android:onClick="changeToLoginActivity"></ImageButton>
+                <!--android:background="@null"-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/login_btn"
+                    android:layout_centerInParent="true"
+                    android:clickable="false"
+                    android:text="ĐăngNhâp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+</LinearLayout>
