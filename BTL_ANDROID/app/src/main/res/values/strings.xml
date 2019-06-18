@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Xo so</string>
+    <string name="title_activity_lottery">Kết quả 3 miền</string>
+
+
+    <string name="title_mien_bac">Miền Bắc</string>
+    <string name="title_mien_trung">Miền Trung</string>
+    <string name="title_mien_nam">Miền Nam</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_profile">Cá nhân</string>
+</resources>

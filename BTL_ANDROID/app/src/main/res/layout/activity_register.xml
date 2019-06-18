@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/edt_register_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="Tên Đăng Nhập"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edt_register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="Mật Khẩu"
+        android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/edt_register_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="Nhập Lại Mật Khẩu"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_register_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:text="Đăng Ký" />
+    <Button
+        android:id="@+id/btn_login_if_has_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:background="@android:color/white"
+        android:text="Đăng nhập. Nếu đã có tài khoản?" />
+</LinearLayout>
